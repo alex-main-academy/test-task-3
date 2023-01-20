@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/test-task-3/static/css/main.07ce4eed.css",
-    "main.js": "/test-task-3/static/js/main.2b8e1bd6.js",
+    "main.css": "/test-task-3/static/css/main.cb1a4936.css",
+    "main.js": "/test-task-3/static/js/main.f95febf2.js",
     "static/media/hero-back.svg": "/test-task-3/static/media/hero-back.ea3bc468978bf18df75c.svg",
     "static/media/trade-1.svg": "/test-task-3/static/media/trade-1.f539efa36b7d8ecaa5df.svg",
     "static/media/future-mobile.svg": "/test-task-3/static/media/future-mobile.ff4e0443332ab7722fac809b5c96ddbd.svg",
@@ -27,11 +27,11 @@
     "static/media/mouse.svg": "/test-task-3/static/media/mouse.b39eac351a1ffecb2a8aa07b8eecfcb3.svg",
     "static/media/bottom-arrow.svg": "/test-task-3/static/media/bottom-arrow.b884402331b3a13543397f7d2e68ccf1.svg",
     "static/media/top-arrow.svg": "/test-task-3/static/media/top-arrow.02571a339971082f743a0362b9ad5e26.svg",
-    "main.07ce4eed.css.map": "/test-task-3/static/css/main.07ce4eed.css.map",
-    "main.2b8e1bd6.js.map": "/test-task-3/static/js/main.2b8e1bd6.js.map"
+    "main.cb1a4936.css.map": "/test-task-3/static/css/main.cb1a4936.css.map",
+    "main.f95febf2.js.map": "/test-task-3/static/js/main.f95febf2.js.map"
   },
   "entrypoints": [
-    "static/css/main.07ce4eed.css",
-    "static/js/main.2b8e1bd6.js"
+    "static/css/main.cb1a4936.css",
+    "static/js/main.f95febf2.js"
   ]
 }
