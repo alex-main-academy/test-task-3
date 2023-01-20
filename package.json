@@ -8,6 +8,7 @@
     "@testing-library/react": "^13.0.1",
     "@testing-library/user-event": "^13.5.0",
     "react": "^18.1.0",
+    "react-animate-on-scroll": "^2.1.5",
     "react-dom": "^18.1.0",
     "react-media": "^1.10.0",
     "react-router-dom": "^6.6.2",
