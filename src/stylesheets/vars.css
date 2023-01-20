@@ -1,0 +1,7 @@
+:root {
+    /* text colors */
+    --primary-text-color: rgba(255, 255, 255, 1);
+    --secondary-text-color: rgba(233, 233, 233, 1);
+    --accent-text-color: rgba(170, 170, 170, 1);
+    --gradient-text-color: linear-gradient(89.95deg, #487FFF -1.65%, #73B5FF 51.06%, #CB76FF 99.96%);
+}

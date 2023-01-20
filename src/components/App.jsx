@@ -1,16 +1,21 @@
+import About from './About/About';
+import Future from './Future/Future';
+import Header from './Header/Header';
+import Hero from './Hero/Hero';
+import Mouse from './Mouse/Mouse';
+import Trade from './Trade/Trade';
+
 export const App = () => {
   return (
-    <div
-      style={{
-        height: '100vh',
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        fontSize: 40,
-        color: '#010101'
-      }}
-    >
-      React homework template
+    <div className="wrapper">
+      <Header />
+      <main>
+        <Hero />
+        <Mouse />
+        <About />
+        <Future />
+        <Trade />
+      </main>
     </div>
   );
 };
