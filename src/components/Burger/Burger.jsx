@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import css from './Burger.module.css';
 
@@ -8,6 +8,14 @@ const Burger = () => {
   const handleBurgerOpen = () => {
     setIsBurgerOpen(!isBurgerOpen);
   };
+
+  useEffect(() => {
+    if (isBurgerOpen) {
+      document.body.style.overflow = 'hidden';
+    } else {
+      document.body.style.overflow = 'initial';
+    }
+  }, [isBurgerOpen]);
 
   return (
     <>

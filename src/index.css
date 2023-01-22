@@ -15,12 +15,12 @@ body {
 }
 
 .container {
-  max-width: 1170px;
+  max-width: 1200px;
   padding: 0 15px;
   margin: 0 auto;
 }
 
-@media screen and (max-width:1170px) {
+@media screen and (max-width:1200px) {
   .container {
     max-width: 768px;
   }
@@ -34,14 +34,43 @@ body {
 }
 
 .wrapper {
-  background-image: url(./images/top-shadow.svg), url(./images/circle-back.svg), url(./images/circle-back-1.svg);
+  overflow: hidden;
+  background-image: url(./images/top-shadow.svg),
+    url(./images/circle-back.svg),
+    url(./images/circle-back-1.svg),
+    url(./images/right-blue-shadow.svg),
+    url(./images/left-blue-shadow.svg),
+    url(./images/bottom-center-shadow.svg),
+    url(./images/bottom-shadow.svg);
   background-repeat: no-repeat;
-  background-position: top left, center right, center right;
+  background-position: top left,
+    top 820px right,
+    center right,
+    top 280px right,
+    top 1150px left,
+    bottom 870px center,
+    bottom left;
 }
 
 @media screen and (max-width:768px) {
   .wrapper {
-    background-position: top left, center right -800px, center right;
+    background-image: url(./images/wrapper-mobile/top-left-shadow-orange.svg),
+      url(./images/wrapper-mobile/top-left-shadow-blue.svg),
+      url(./images/wrapper-mobile/top-right-shadow-orange.svg),
+      url(./images/wrapper-mobile/circle-main-back.svg),
+      url(./images/wrapper-mobile/center-left-shadow-blue.svg),
+      url(./images/wrapper-mobile/center-right-shadow-orange.svg),
+      url(./images/wrapper-mobile/center-right-shadow-blue.svg),
+      url(./images/wrapper-mobile/center-left-shadow-blue.svg);
+    background-repeat: no-repeat;
+    background-position: top left,
+      top left 50px,
+      top 390px right,
+      top 600px right,
+      top 970px left,
+      top 1780px right,
+      top 1760px right,
+      bottom 1480px left;
   }
 }
 
@@ -56,7 +85,7 @@ body::-webkit-scrollbar-thumb {
   background-color: #ffffff;
 }
 
-@media screen and (max-width:1170px) {
+@media screen and (max-width:1200px) {
   body::-webkit-scrollbar {
     width: 0;
     background-color: transparent;

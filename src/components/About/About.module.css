@@ -1,12 +1,12 @@
 .about {
-    padding-bottom: 92px;
+    padding: 143px 0 184px 0;
 }
 
-@media screen and (max-width:1170px) {}
+@media screen and (max-width:1200px) {}
 
 @media screen and (max-width:768px) {
     .about {
-        padding-bottom: 50px;
+        padding: 0 0 100px 0;
     }
 }
 
@@ -50,10 +50,10 @@
 .about__content {
     display: flex;
     align-items: center;
-    gap: 236px;
+    gap: 181px;
 }
 
-@media screen and (max-width:1170px) {
+@media screen and (max-width:1200px) {
     .about__content {
         gap: 0;
     }
@@ -103,8 +103,8 @@
     display: flex;
     gap: 17px;
     align-items: flex-start;
-    padding-left: 35px;
-    max-width: 333px;
+    padding-left: 33px;
+    max-width: 366px;
 
     font-size: 18px;
     line-height: 1.16;

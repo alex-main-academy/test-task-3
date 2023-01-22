@@ -31,7 +31,7 @@ const Trade = () => {
             <li className={css.trade__item}>
               <p className={css.trade__item__uptitle}>Trading Arena</p>
               <h3 className={css.trade__item__title}>
-                Prize pools worth up to <span> 1.000.000 USD</span>
+                Prize pools worth up to <span> USD 1.000.000</span>
               </h3>
               <Link className={css.trade__item__link}>Learn more</Link>
             </li>
